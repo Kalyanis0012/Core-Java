@@ -1,0 +1,12 @@
+import java.util.TreeSet;
+class P3 
+{
+	public static void main(String[] args) 
+	{
+	  TreeSet obj=new TreeSet();
+	  obj.add(1);
+	  obj.add(false);
+      obj.add(2);
+	  System.out.println(obj);
+	}
+}
