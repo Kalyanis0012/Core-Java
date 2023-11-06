@@ -1,0 +1,43 @@
+import java.util.Scanner;
+class AreaMethod 
+{
+	public static void main(String[] args) 
+
+	{
+		Scanner sc=new Scanner(System.in);
+         System.out.println("Enter 1 for Circle");
+		 System.out.println("Enter 2 for rectangle");
+		 System.out.println("Enter3 for square");
+		System.out.println("Enter your choice");
+		int ch=sc.nextInt();
+		switch(ch){
+			case 1:
+				
+					System.out.println("Enter radius of a circle");
+					float rad=sc.nextFloat();
+					double a1=3.14*rad*rad;
+					System.out.println("Area of Circle is "+a1+"cm sq" );
+					break;
+				
+				case 2:
+				    System.out.println("Enter length of a rectangle");
+					float l=sc.nextFloat();
+                    System.out.println("Enter breadth of a rectangle");
+					float b=sc.nextFloat();
+					double a2=l*b;
+					System.out.println("Area of reactangle is "+a2+"cm sq" );
+					break;
+		
+				case 3:
+				
+					System.out.println("Enter side of a square");
+					float s=sc.nextFloat();
+					double a3=s*s;
+					System.out.println("Area of square is "+a3+"cm sq" );
+					break;
+				
+
+			
+		}
+	}
+}
