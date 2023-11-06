@@ -1,0 +1,31 @@
+class P8
+{
+	public static int num(int a,int b,int c,int d)
+	{
+	     if(a<b&& a<c && a<d)
+	     {
+		  System.out.println(a ,"Maximum No");
+		  return a;
+	     } 
+		 else if(b<c && B<d)
+		  {
+			System.out.println(b ,"Maximum No");
+			return b;
+		  }
+		  else if(c<d)
+		  {
+			  System.out.println(c,"Max no");
+			  return c;
+		  }
+		  else
+		{
+			System.out.pritnln(d,"max no ");
+		}
+	  }
+	
+	public static void main(String[] args) 
+	{
+		System.out.println(num(27,50,3,25));
+	}
+}
+   

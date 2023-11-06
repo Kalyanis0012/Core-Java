@@ -1,0 +1,27 @@
+import java.util.Scanner;
+class Pallindrome
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter a number");
+		int n=sc.nextInt();
+		int reverse;int lastDigit=0;
+		int cp=n;
+		while(n!-0)
+		{
+			lastDigit=n%10;
+			reversereverse*10+ lastDigit;
+			n=n/10;
+		}
+     if (reverse==cp)
+     {
+		 System.out.println(cp +" is pallindrome number");
+     }
+  else 
+		{
+			System.out.println(cp "is not pallindrome");
+		}
+	}
+	
+}

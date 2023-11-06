@@ -1,0 +1,13 @@
+class  P20
+{
+   static int a=20;
+   P20()
+	{
+		System.out.println(P20.a);
+	}
+	public static void main(String[] args) 
+	{
+		P20 obj=new P20();
+		//obj.demo();
+	}
+}
