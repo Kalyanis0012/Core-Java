@@ -1,0 +1,24 @@
+class  NumForExp
+{
+	public static void main(String[] args) 
+	{
+		//String obj="a";
+		//int n=Integer.parseInt(obj);
+		//System.out.println(obj);
+		//System.out.println(n);//
+
+			try{
+				String obj="abc";
+				int n=Integer.parsseInt(obj);
+                System.out.println(obj);
+				System.out.println(n);
+
+			}
+			catch(NumberFormatException var)
+		{
+			System.out.println("catchblock");
+		}
+
+
+	}
+}
